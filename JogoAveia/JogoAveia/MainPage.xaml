@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JogoAveia.MainPage">
+
+    <StackLayout>
+        <Label Text="# Jogo da Velha #" FontSize="Title" HorizontalTextAlignment="Center" TextColor="Blue"/>
+
+        <Grid RowDefinitions="*,*,*"
+              ColumnDefinitions="*,*,*">
+
+            <Button Text="" x:Name="b1" Clicked="b1_Clicked" Grid.Column="0" Grid.Row="0"/>
+            <Button Text="" x:Name="b2" Clicked="b2_Clicked" Grid.Column="0" Grid.Row="1"/>
+            <Button Text="" x:Name="b3" Clicked="b3_Clicked" Grid.Column="0" Grid.Row="2"/>
+
+            <Button Text="" x:Name="b4" Clicked="b4_Clicked" Grid.Column="1" Grid.Row="0"/>
+            <Button Text="" x:Name="b5" Clicked="b5_Clicked" Grid.Column="1" Grid.Row="1"/>
+            <Button Text="" x:Name="b6" Clicked="b6_Clicked" Grid.Column="1" Grid.Row="2"/>
+
+            <Button Text="" x:Name="b7" Clicked="b7_Clicked" Grid.Column="2" Grid.Row="0"/>
+            <Button Text="" x:Name="b8" Clicked="b8_Clicked" Grid.Column="2" Grid.Row="1"/>
+            <Button Text="" x:Name="b9" Clicked="b9_Clicked" Grid.Column="2" Grid.Row="2"/>
+
+
+
+        </Grid>
+    </StackLayout>
+
+</ContentPage>
